@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Content Usage Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-container">
+        <h1>Content Usage Analyzer</h1>
+        <div class="input-section">
+            <label for="url-input">Enter URL to analyze:</label>
+            <input type="text" id="url-input" placeholder="https://example.com" />
+            <button onclick="analyzeContent()">Analyze</button>
+        </div>
+
+        <div class="results-section">
+            <h2>Analysis Results:</h2>
+            <p id="content-length"></p>
+            <p id="word-count"></p>
+            <p id="url-validation"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
